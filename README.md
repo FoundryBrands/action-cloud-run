@@ -9,7 +9,7 @@ In your actions workflow, somewhere after the step that builds
 
 ```bash
 - name: Deploy service to Cloud Run
-  uses: stefda/action-cloud-run@v1.6
+  uses: FoundryBrands/action-cloud-run@v1.8
   with:
     image: gcr.io/[your-project]/[image]
     service: [your-service]
